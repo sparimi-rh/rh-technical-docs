@@ -1,0 +1,17 @@
+[centos-stream-10-baseos]
+name=CentOS Stream 10 - BaseOS
+baseurl=https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/
+gpgcheck=0
+enabled=1
+
+[centos-stream-10-appstream]
+name=CentOS Stream 10 - AppStream
+baseurl=https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/
+gpgcheck=0
+enabled=1
+
+[centos-stream-10-crb]
+name=CentOS Stream 10 - CRB
+baseurl=https://mirror.stream.centos.org/10-stream/CRB/x86_64/os/
+gpgcheck=0
+enabled=1
